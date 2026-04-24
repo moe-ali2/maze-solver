@@ -13,7 +13,7 @@ DBLUE  = (30,   80, 180)
 LBLUE  = (186, 230, 253)
 YELLOW = (250, 204,  21)
 
-EMPTY, WALL, START, GOAL = ".",
+EMPTY, WALL, START, GOAL = ".", "#", "S", "G"
 
 def draw_grid(screen, font, grid, agent, ROWS, COLS, CELL):
 
