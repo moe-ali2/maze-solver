@@ -19,21 +19,22 @@ Type: Goal-Based Agent (AIMA model)
 Algorithms: BFS · A*
 Goal: Find the shortest path from S to G
 
-Controls:
-Key:         Action:
-1  	      Draw mode: Wall
-2	        Draw mode: Erase
-3        	Draw mode: Start
-4        	Draw mode: Goal
-B	        Switch to BFS
-A	        Switch to A*
--       	Speed: Slow
-N	        Speed: Normal
-=	        Speed: Fast
-SPACE   	Start the agent
-C	        Clear all walls
-R       	Reset the grid
+## Controls
 
+| Key         | Action              |
+|-------------|---------------------|
+| `1`         | Draw mode: Wall     |
+| `2`         | Draw mode: Erase    |
+| `3`         | Draw mode: Start    |
+| `4`         | Draw mode: Goal     |
+| `B`         | Switch to BFS       |
+| `A`         | Switch to A*        |
+| `-`         | Speed: Slow         |
+| `N`         | Speed: Normal       |
+| `=`         | Speed: Fast         |
+| `SPACE`     | Start the agent     |
+| `C`         | Clear all walls     |
+| `R`         | Reset the grid      |
 
 
 ## How to Run
